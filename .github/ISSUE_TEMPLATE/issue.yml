@@ -1,6 +1,6 @@
 name: Issue
 description: Create a new issue
-title: "Add repo to the 
+title: "Add repo to the title!"
 body:
   - type: markdown
     attributes:
@@ -10,6 +10,7 @@ body:
           - [ ] Project
           - [ ] Size estimate
           - [ ] Priority
+          - [ ] Title has been changed (Including the repo in the title, e.g.: Add code coverage for IR-API, Improve deployment of CEPH mounting in k8s)
   - type: textarea
     id: issue-description
     attributes:
