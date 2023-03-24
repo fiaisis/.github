@@ -1,5 +1,6 @@
 name: Issue
 description: Create a new issue
+title: Add the repo to the title! 
 body:
   - type: markdown
     attributes:
