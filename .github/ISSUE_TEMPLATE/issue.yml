@@ -1,0 +1,14 @@
+name: Issue
+description: Create a new issue
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Hopefully this should simplify creating issues across the repositories, please feel free to complain to me directly if not.
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: Description of the issue
+      description: Give a brief description of what needs to happen
+    validations:
+      required: true
