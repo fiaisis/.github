@@ -14,5 +14,8 @@ body:
         unlike: *Presently or alternatives*
         our solution: *will work*
 
+  - type: textarea
+    attributes:
+      value: |
         Technical specifics:
         *put the technical specifics here*
