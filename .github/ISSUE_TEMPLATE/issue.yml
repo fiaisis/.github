@@ -5,17 +5,18 @@ body:
   - type: markdown
     attributes:
       value: |
-        Using the following template describe the issue
-        For: *users of the software or developers*
-        Who: *want this thing*
-        The: *issue is with X*
-        Is a: *broad solution*
-        that: *That achieves what?*
-        unlike: *Presently or alternatives*
-        our solution: *will work*
+        Using the following template describe the issue  
+        For: *users of the software or developers*  
+        Who: *want this thing*  
+        The: *issue is with X*  
+        Is a: *broad solution*  
+        That: *achieves what?*  
+        Unlike: *presently or alternatives*  
+        Our solution: *will work*
 
   - type: textarea
+    id: technical_specifics
     attributes:
-      value: |
-        Technical specifics:
-        *put the technical specifics here*
+      label: Technical specifics
+      description: Provide the technical details or environment information relevant to the issue.
+      placeholder: Describe any logs, configurations, or system details here.
