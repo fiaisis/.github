@@ -1,18 +1,17 @@
 name: Issue
 description: Create a new issue
-title: "Add repo to the title!"
+title: "Summarise the issue here"
 body:
   - type: markdown
     attributes:
       value: |
         Using the following template describe the issue  
-        For: *users of the software or developers*  
-        Who: *want this thing*  
-        The: *issue is with X*  
-        Is a: *broad solution*  
-        That: *achieves what?*  
-        Unlike: *presently or alternatives*  
-        Our solution: *will work*
+        What:
+        Why:
+        Who (will benefit) :
+        How (are we doing this now):
+        Technical caveats:
+        
 
   - type: textarea
     id: technical_specifics
